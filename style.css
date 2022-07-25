@@ -1,0 +1,18 @@
+body {
+    background:pink;
+    text-align: center;
+}
+#camera {
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px;
+    margin-left: 385px;
+    margin-top: 10px
+}
+#result{
+    border: 2px dashed black;
+    width: 350px;
+    height: 300px;
+    margin-left: 385px;
+    margin-top: 10px
+}

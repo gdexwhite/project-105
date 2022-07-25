@@ -1,0 +1,55 @@
+<html>
+    <head>
+        
+        <title>
+            Image Identification app
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+    </head>
+    <body>
+        <div class="container">
+        
+        <h1 style="color:white">FACE RECOGNITION APP</h1>
+        <br>
+        <h4 style="color:white">Model is trained to identify the following people:</h4>
+         <br>
+         <b class="list_of_names">
+            Father
+            <hr>
+            Mother
+            <hr>
+            Me
+            <hr>
+         </b>
+         <br>
+         <label style="color:white" >Webcam View - </label>
+         <div id="camera"></div>
+              <br>
+              <label style="color:white">Webcam Result-</label>
+              <div id="result"></div>
+               <br>
+               <br>
+            <button style="color:white; background-color: greenyellow; border-radius: 20px;" onclick="take_snapshot()">Capture Image</button>
+                                            <br>
+                                            <br>
+            <button style="color:white; background-color: lightblue; border-radius: 20px;">Predict Image</button>
+                                            <br>
+                                            <br>
+                                            <br>
+            <h4 style="color:orange">Object:<span id="result_object_name"></span></h4>
+            <h4 style="color:red">Accuracy:<span id="result_object_accuracy"></span></h4>
+</div
+></body>
+
+
+   
+    <script src="script.js"></script>
+</html>
